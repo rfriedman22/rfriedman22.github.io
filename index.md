@@ -8,3 +8,4 @@ I am a Ph.D. candidate in the [Computational and Systems Biology](http://dbbs.wu
 ## [ORCID](https://orcid.org/0000-0001-9013-8676)
 ## [LinkedIn](https://www.linkedin.com/in/ryanfriedman22/)
 ## [Google Scholar](https://scholar.google.com/citations?user=TR8GZ_cAAAAJ&hl=en&oi=ao)
+## [Github](https://github.com/rfriedman22)
