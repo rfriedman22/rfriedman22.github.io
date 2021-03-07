@@ -1,4 +1,21 @@
 title: "Ryan Z. Friedman"
-description: "Computational and Systems Biology Ph.D. candidate"
+description: My personal website.
 
-theme: jekyll-theme-cayman
+theme: minima
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+minima:
+  social_links:
+    twitter: rfriedman22
+    github: rfriedman22
+    linkedin: rfriedman22
