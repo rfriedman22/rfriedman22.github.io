@@ -2,8 +2,14 @@ title: "Ryan Z. Friedman"
 description: My personal website.
 
 theme: minima
+show_excerpts: True
 
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   - scope:
       path: ""
     values:
@@ -14,8 +20,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-minima:
-  social_links:
-    twitter: rfriedman22
-    github: rfriedman22
-    linkedin: rfriedman22
+twitter_username: rfriedman22
+github_username: rfriedman22
+linkedin_username: rfriedman22
+orcid_username: 0000-0001-9013-8676
+google_scholar_username: TR8GZ_cAAAAJ

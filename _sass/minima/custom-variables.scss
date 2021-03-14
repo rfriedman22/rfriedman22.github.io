@@ -1,9 +1,4 @@
-.flex-container {
-	display: flex;
-	flex-direction: row;
-}
-
-/*
+$black-color: #000000;
 .row {
   display: flex;
 }
@@ -11,16 +6,26 @@
 .column {
   flex: 50%;
 }
-*/
 
-.column {
-  float: left;
-  width: 50%;
+.social-media-list {
+  li {
+    padding-top: 5px;
+	display: inline-block;
+  }
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: $black-color;
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+.footer-col-wrapper {
+	@include relative-font-size(0.9375);
+	color: $black-color;
+	margin-left: -$spacing-unit / 2;
+	@extend %clearfix;
 }
