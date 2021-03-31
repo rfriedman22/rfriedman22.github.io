@@ -1,7 +1,7 @@
 ---
 title: Contact
 ---
-If you want to reach me, please send an email to [{{ site.data.email.address }}](mailto:{{ site.data.email.address }}).
+If you want to reach me, please send an email to {{ site.data.email.address }}.
 
 You can also mail me at:  
 Ryan Friedman - Cohen Lab  
