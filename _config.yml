@@ -21,7 +21,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-twitter_username: rfriedman22
+bluesky_username: rfriedman22.bsky.social
 github_username: rfriedman22
 linkedin_username: ryanfriedman22
 orcid_username: 0000-0001-9013-8676

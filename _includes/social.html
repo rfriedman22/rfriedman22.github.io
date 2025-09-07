@@ -16,6 +16,14 @@
     </a>
   {%- endif -%}
 
+  {%- if site.bluesky_username -%}
+    <a rel="me" href="https://bsky.app/profile/{{ site.bluesky_username| cgi_escape | escape }}">
+      <svg class="svg-icon">
+        <image xlink:href="{{ '/static/img/logo/bluesky_logo.svg' | relative_url }}" width="16" height="16"></image>
+      </svg>
+    </a>
+  {%- endif -%}
+
   {%- if site.github_username -%}
     <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
       <svg class="svg-icon">
